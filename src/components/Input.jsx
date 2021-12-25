@@ -41,7 +41,13 @@ function Input(props){
                     value={inputNote.content}></textarea>
                 <Zoom in={takeNote}>
                     <button
-                        onClick={()=> {props.addNote(inputNote);}}>
+                        onClick={()=> {
+                            props.addNote(inputNote);
+                            setInputNote({
+                                title:"",
+                                content:""
+                            });
+                        }}>
                         <AddIcon className="add-icon" />
                     </button>
                 </Zoom>
