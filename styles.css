@@ -119,12 +119,14 @@ textarea:focus{
 .create-icon{
   font-size: 0.9em !important;
   margin-right: -5px;
+  color: #EEEEEE;
 }
 
 .add-icon{
   position: relative;
   top:2.5px;
   font-size: 1.8em !important;
+  color: black;
 }
 
 .input-form button{
