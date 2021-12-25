@@ -54,12 +54,12 @@ footer {
   background-color: #FFD369;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding: 10px;
 }
 
 .note p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -115,7 +115,9 @@ textarea:focus{
   font-weight: bold;
   font-size: 1.2em;
 }
-
+#content{
+  font-size: 1.1em;
+}
 .create-icon{
   font-size: 0.9em !important;
   margin-right: -5px;
@@ -126,7 +128,6 @@ textarea:focus{
   position: relative;
   top:2.5px;
   font-size: 1.8em !important;
-  color: black;
 }
 
 .input-form button{
