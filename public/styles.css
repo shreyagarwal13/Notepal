@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #393E46;
+  color: #222831;
+}
+
+header {
+  padding: 16px 32px;
+}
+
+header h1 {
+  color: #EEEEEE;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.top-box{
+  min-height: 85vh;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 2em;
+  color: #EEEEEE;
+}
+
+
+.note {
+  background-color: #EEEEEE;
+  border-radius: 7px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.note-div{
+  width: 300px;
+  margin: 0.5em 0.5em;
+}
+
+.notes{
+  justify-content: center;
+  align-content: center;
+  display:flex;
+  flex-flow: wrap;
+}
+
+.note h1 {
+  background-color: #FFD369;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.note p {
+  font-size: 1rem;
+  padding: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.input-div{
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.input-form{
+  width: 550px;
+  text-align: right;
+  margin: 0.5em 0.5em 1.4em;
+  background-color: #EEEEEE;
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  .input-form{
+    width: 90%;
+  }
+  .note-div{
+    width: 90%;
+  }
+}
+
+
+.input-form input, textarea{
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.7em 0.6em 0.5em;
+  font-size: 1em;
+  margin: 0;
+  border:none;
+  background-color: transparent;
+}
+textarea{
+  resize: none;
+  padding-bottom: 0;
+}
+
+input:focus{
+  outline:none;
+}
+textarea:focus{
+  outline:none;
+}
+
+#title{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.create-icon{
+  font-size: 0.9em !important;
+  margin-right: -5px;
+  color: #EEEEEE;
+}
+
+.add-icon{
+  position: relative;
+  top:2.5px;
+  font-size: 1.8em !important;
+  color: black;
+}
+
+.input-form button{
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  margin: -20px 20px ;
+  font-size: 1em !important;
+  border: 2px #FFD369 solid;
+  background-color: #FFD369;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.input-form button:hover{
+  background-color: #ffca4a ;
+  border: 2px #ffca4a solid;
+}
+
+.input-form button:active{
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.delete{
+  background-color: #FF5C58 ;
+  color: #EEEEEE;
+  border-radius: 100%;
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 26px !important;
+  padding:0.1em;
+}
+
+.delete:hover{
+  background-color: #F05454;
+}
+
+.delete:active{
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.delete-div{
+  text-align: right;
+  margin-bottom: -20px;
+  margin-right: 10px;
+}
