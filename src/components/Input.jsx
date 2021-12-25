@@ -42,7 +42,7 @@ function Input(props){
                 <Zoom in={takeNote}>
                     <button
                         onClick={()=> {props.addNote(inputNote);}}>
-                        <AddIcon color="primary" className="add-icon" />
+                        <AddIcon className="add-icon" />
                     </button>
                 </Zoom>
             </div>
